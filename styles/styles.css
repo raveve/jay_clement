@@ -34,7 +34,7 @@ body {
     color: #fff;
     font-family: 'blackangelblackangel', Arial, sans-serif; }
   .container header {
-    padding-top: 18vh; }
+    padding-top: 17vh; }
     .container header h1 {
       font-size: 4em; }
       @media (min-width: 380px) {
@@ -61,7 +61,7 @@ body {
         .container header h3 {
           font-size: 4em; } }
   .container main {
-    margin-top: 10vh; }
+    margin-top: 9vh; }
     .container main h2 {
       font-size: 3.5em; }
       @media (min-width: 615px) {
@@ -74,7 +74,7 @@ body {
         .container main h2 {
           font-size: 6em; } }
   .container footer {
-    margin-top: 7vh; }
+    margin-top: 6vh; }
     .container footer li {
       display: inline-block; }
       .container footer li:nth-child(2) {
