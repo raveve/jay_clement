@@ -32,7 +32,9 @@ body {
   .container header, .container main, .container footer {
     text-align: center;
     color: #fff;
-    font-family: 'blackangelblackangel', Arial, sans-serif; }
+    font-family: 'blackangelblackangel', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
   .container header {
     padding-top: 17vh; }
     .container header h1 {
