@@ -35,10 +35,11 @@ body {
     font-family: 'jaapokki_subtractregular', Arial, sans-serif;
     -moz-osx-font-smoothing: grayscale; }
   .container header {
-    padding-top: 13vh; }
+    padding-top: 11vh; }
     .container header h1 {
       text-transform: uppercase;
-      font-size: 4em; }
+      font-size: 4em;
+      line-height: .8em; }
       @media (min-width: 380px) {
         .container header h1 {
           font-size: 5em; } }
