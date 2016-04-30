@@ -5,6 +5,12 @@
   src: url("../fonts/blackangel-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/blackangel-webfont.woff2") format("woff2"), url("../fonts/blackangel-webfont.woff") format("woff"), url("../fonts/blackangel-webfont.ttf") format("truetype"), url("../fonts/blackangel-webfont.svg#blackangelblackangel") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'jaapokki_subtractregular';
+  src: url("../fonts/jaapokkisubtract-regular-webfont.eot");
+  src: url("../fonts/jaapokkisubtract-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/jaapokkisubtract-regular-webfont.woff2") format("woff2"), url("../fonts/jaapokkisubtract-regular-webfont.woff") format("woff"), url("../fonts/jaapokkisubtract-regular-webfont.ttf") format("truetype"), url("../fonts/jaapokkisubtract-regular-webfont.svg#jaapokki_subtractregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 * {
   margin: 0;
   padding: 0; }
@@ -32,11 +38,12 @@ body {
   .container header, .container main, .container footer {
     text-align: center;
     color: #fff;
-    font-family: 'blackangelblackangel', Arial, sans-serif;
+    font-family: 'jaapokki_subtractregular', Arial, sans-serif;
     -moz-osx-font-smoothing: grayscale; }
   .container header {
     padding-top: 17vh; }
     .container header h1 {
+      text-transform: uppercase;
       font-size: 4em; }
       @media (min-width: 380px) {
         .container header h1 {
@@ -62,7 +69,8 @@ body {
         .container header h3 {
           font-size: 4em; } }
   .container main {
-    margin-top: 9vh; }
+    margin-top: 9vh;
+    text-transform: uppercase; }
     .container main h2 {
       font-size: 3.5em; }
       @media (min-width: 615px) {
