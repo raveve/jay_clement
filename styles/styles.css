@@ -64,7 +64,7 @@ body {
         .container header h3 {
           font-size: 4em; } }
   .container main {
-    margin-top: 8vh;
+    margin-top: 7vh;
     text-transform: uppercase; }
     .container main h2 {
       font-size: 3em; }
@@ -78,7 +78,7 @@ body {
         .container main h2 {
           font-size: 6em; } }
   .container footer {
-    margin-top: 6vh; }
+    margin-top: 5vh; }
     .container footer li {
       display: inline-block; }
       .container footer li:nth-child(2) {
