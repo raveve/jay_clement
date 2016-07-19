@@ -9,79 +9,88 @@
   margin: 0;
   padding: 0; }
 
-body {
+.container {
+  height: 0; }
+  .container header, .container main, .container footer {
+    color: #fff;
+    font-family: 'jaapokki_subtractregular', Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale; }
+
+.section-1 {
   content: '';
   display: block;
-  background: url("../media/jay.jpg") no-repeat center center fixed;
+  background: -webkit-linear-gradient(rgba(23, 92, 146, 0.8), rgba(23, 92, 146, 0.8)), url("../media/jay.jpg") no-repeat center center fixed;
+  background: -o-linear-gradient(rgba(23, 92, 146, 0.8), rgba(23, 92, 146, 0.8)), url("../media/jay.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(23, 92, 146, 0.8), rgba(23, 92, 146, 0.8)), url("../media/jay.jpg") no-repeat center center fixed;
+  height: 700px;
+  width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-  body:after {
-    content: '';
-    display: block;
-    background-color: rgba(23, 92, 146, 0.8);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh; }
+  .section-1 .name {
+    text-align: center; }
 
-.container {
-  height: 0; }
-  .container header, .container main, .container footer {
-    text-align: center;
-    color: #fff;
-    font-family: 'jaapokki_subtractregular', Arial, sans-serif;
-    -moz-osx-font-smoothing: grayscale; }
-  .container header {
-    padding-top: 11vh; }
-    .container header h1 {
-      text-transform: uppercase;
-      font-size: 4em;
-      line-height: .8em; }
-      @media (min-width: 380px) {
-        .container header h1 {
-          font-size: 5em; } }
-      @media (min-width: 645px) {
-        .container header h1 {
-          font-size: 6em; } }
-      @media (min-width: 755px) {
-        .container header h1 {
-          font-size: 7em; } }
-      @media (min-width: 865px) {
-        .container header h1 {
-          font-size: 8em; } }
-    .container header h3 {
-      font-size: 2em; }
-      @media (min-width: 380px) {
-        .container header h3 {
-          font-size: 2.5em; } }
-      @media (min-width: 755px) {
-        .container header h3 {
-          font-size: 3em; } }
-      @media (min-width: 865px) {
-        .container header h3 {
-          font-size: 4em; } }
-  .container main {
-    margin-top: 7vh;
-    text-transform: uppercase; }
-    .container main h2 {
-      font-size: 3em; }
-      @media (min-width: 615px) {
-        .container main h2 {
-          font-size: 4em; } }
-      @media (min-width: 755px) {
-        .container main h2 {
-          font-size: 5em; } }
-      @media (min-width: 865px) {
-        .container main h2 {
-          font-size: 6em; } }
-  .container footer {
-    margin-top: 5vh; }
-    .container footer li {
+header {
+  padding-top: 100px; }
+  header h1 {
+    text-transform: uppercase;
+    font-size: 4em;
+    line-height: .8em; }
+    @media (min-width: 380px) {
+      header h1 {
+        font-size: 5em; } }
+    @media (min-width: 645px) {
+      header h1 {
+        font-size: 6em; } }
+    @media (min-width: 755px) {
+      header h1 {
+        font-size: 7em; } }
+    @media (min-width: 865px) {
+      header h1 {
+        font-size: 8em; } }
+
+.bio {
+  background: black;
+  height: 900px;
+  -webkit-clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+  margin-top: -175px; }
+  .bio .bio-text {
+    color: white;
+    font-family: Helvetica;
+    font-size: 18px;
+    padding: 10px 100px; }
+  .bio .first-bio-text {
+    padding-top: 250px; }
+
+.images {
+  height: 900px;
+  background: #175c92;
+  -webkit-clip-path: polygon(0 0, 100% 19%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 19%, 100% 100%, 0 100%);
+  margin-top: -175px; }
+  .images .image-slider {
+    padding-top: 200px;
+    width: 600px;
+    margin: 0 auto; }
+    .images .image-slider .image img {
+      width: 550px;
+      height: auto;
+      margin: 0 auto; }
+
+.contact {
+  height: 400px;
+  background: black;
+  -webkit-clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
+  margin-top: -175px;
+  text-align: center; }
+  .contact ul {
+    padding-top: 200px; }
+    .contact ul li {
       display: inline-block; }
-      .container footer li:nth-child(2) {
+      .contact ul li:nth-child(2) {
         margin-left: 25px; }
 
 /*# sourceMappingURL=styles.css.map */
