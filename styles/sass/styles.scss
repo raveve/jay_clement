@@ -81,18 +81,18 @@ header {
 }
 
 .images {
-  height: 900px;
+  height: 1050px;;
   background: #175c92;
   -webkit-clip-path: polygon(0 0, 100% 19%, 100% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 19%, 100% 100%, 0 100%);
-  margin-top: -175px;
+  margin-top: -282px;
   .image-slider {
     padding-top: 200px;
     width: 600px;
     margin: 0 auto;
     .image {
       img {
-        width: 550px;
+        width: 475px;;
         height: auto;
         margin: 0 auto;
         border: 8px solid white;
@@ -106,7 +106,7 @@ header {
   background: black;
   -webkit-clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 19%, 100% 0, 100% 100%, 0 100%);
-  margin-top: -175px;
+  margin-top: -78px;
   text-align: center;
   ul {
     padding-top: 200px;
@@ -116,5 +116,15 @@ header {
         margin-left: 25px;
       }
     }
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background: #000;
+  }
+  .container {
+    width: 1440px;
+    margin: 0 auto;
   }
 }
