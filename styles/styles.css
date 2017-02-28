@@ -29,7 +29,8 @@
   -o-background-size: cover;
   background-size: cover; }
   .section-1 .name {
-    text-align: center; }
+    text-align: center;
+    margin-top: 150px; }
 
 header {
   padding-top: 100px; }
@@ -61,7 +62,7 @@ header {
     font-size: 20px;
     padding: 10px 100px; }
   .bio .first-bio-text {
-    padding-top: 280px; }
+    padding-top: 245px; }
 
 .images {
   height: 1050px;
