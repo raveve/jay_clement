@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jay Clement - Coming Soon</title>
+    <title>Jay Clement</title>
    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
@@ -25,22 +25,71 @@
 <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="styles/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
 <div class="container">
-	<header>
-		<h1>Jay Clement</h1>
-		<h3>jayonarope.com</h3>
+	<header class="section-1">
+		<h1 class="name">Jay Clement</h1>
 	</header>
-	<main>
-		<h2>Coming Soon...</h2>
-	</main>
-	<footer>
-		<ul>
+	<main class="bio">
+    	  <p class="bio-text first-bio-text">J. Clement grew up in Northwestern Pennsylvania were he danced competitively in a variety of styles including Hip Hop and Acrobatics. At a young age he saw his first contemporary circus show which instilled a desire to get up in the air.</p>
+    		<p class="bio-text">Post-high school he found himself in Philadelphia where he discovered The Philadelphia School of Circus Arts and saw an opportunity to live out his circus dream. After several months of recreational classes his teachers encouraged him to apply to NECCA’s professional training programs, where he was accepted and has completed both the Intensive Pro Track years specializing in Corde Lisse and Handbalancing. Currently, he resides in Charleston, South Carolina as a coach at Aerial Fit and a performer with Circus Building Entertainment, while still pursuing freelance and company work.</p>
+    		<p class="bio-text">In his spare time J. enjoys doing handstands in odd places, Italian food, planning world domination with his best friends, and perfecting his favorite hobby: long-term napping.</p>
+  	</main>
+  	<section class="images">
+  		<div class="image-slider">
+  			<div class="image">
+  				<img src="media/Rope.jpg"></img>
+  			</div>
+  			<div class="image">
+  				<img src="media/RopeCoil.jpg"></img>
+  			</div>
+        <div class="image">
+  				<img src="media/RopeHipKeyRollup.jpg"></img>
+  			</div>
+        <div class="image">
+          <img src="media/RopePaperClip.jpg"></img>
+        </div>
+        <div class="image">
+          <img src="media/RopePress.jpg"></img>
+        </div>
+        <div class="image">
+          <img src="media/RopeRussianClimb.jpg"></img>
+        </div>
+        <div class="image">
+          <img src="media/RopeSidePlange.jpg"></img>
+        </div>
+        <div class="image">
+          <img src="media/RopeStance1.jpg"></img>
+        </div>
+        <div class="image">
+          <img src="media/Hands.jpg"></img>
+        </div>
+  		</div>
+  	</section>
+  	<section class="contact">
+  		<ul>
 			<li><a href="https://www.facebook.com/jayonarope" target="_blank"><img src="media/FB-f-Logo__white_50.png"></a></li>
 			<li><a href="https://www.instagram.com/aimlessjb1rd/" target="_blank"><img src="media/Glyph_Logo_png.png"></a></li>
 		</ul>
-	</footer>
+  	</section>
 </div>
+
+<script type="text/javascript" src="bower_components/jQuery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.image-slider').slick({
+        dots: true,
+  		  infinite: true,
+ 		    speed: 500,
+  		  fade: true,
+  		  cssEase: 'linear'
+      });
+    });
+  </script>
 </body>
 </html>
