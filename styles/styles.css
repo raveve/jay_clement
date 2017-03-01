@@ -94,16 +94,16 @@ header {
       .contact ul li:nth-child(2) {
         margin-left: 25px; }
 
+@media (min-width: 1441px) {
+  .bio {
+    width: 1441px; } }
 @media (min-width: 1440px) {
   body {
     background: #000; }
 
   .container {
     width: 1440px;
-    margin: 0 auto; }
-
-  .bio {
-    width: 1441px; } }
+    margin: 0 auto; } }
 @media (min-width: 640px) and (max-width: 1439px) {
   .bio .bio-text {
     padding: 10px 50px;

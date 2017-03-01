@@ -120,6 +120,12 @@ header {
   }
 }
 
+@media (min-width: 1441px) {
+  .bio {
+    width: 1441px;
+  }
+}
+
 @media (min-width: 1440px) {
   body {
     background: #000;
@@ -127,9 +133,6 @@ header {
   .container {
     width: 1440px;
     margin: 0 auto;
-  }
-  .bio {
-    width: 1441px;
   }
 }
 
