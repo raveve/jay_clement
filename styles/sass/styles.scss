@@ -188,3 +188,9 @@ header {
     padding-top: 50%;
   }
 }
+
+@media (max-width: 419px) {
+  .bio .first-bio-text {
+    padding-top: 55%;
+  }
+}
