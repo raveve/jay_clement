@@ -94,6 +94,23 @@ header {
       .contact ul li:nth-child(2) {
         margin-left: 25px; }
 
+@media (max-width: 640px) {
+  .bio .bio-text {
+    padding: 5px 20px;
+    font-size: 12.5px; }
+
+  .bio .first-bio-text {
+    padding-top: 185px; }
+
+  .images .image-slider {
+    width: 265px;
+    padding-top: 350px; }
+    .images .image-slider .image img {
+      width: 93%; }
+  .images .slick-prev, .images .slick-next {
+    top: 75%; }
+  .images .slick-dots {
+    bottom: -70px; } }
 @media (min-width: 1440px) {
   body {
     background: #000; }
