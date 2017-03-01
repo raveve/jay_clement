@@ -94,13 +94,33 @@ header {
       .contact ul li:nth-child(2) {
         margin-left: 25px; }
 
-@media (max-width: 640px) {
+@media (min-width: 1440px) {
+  body {
+    background: #000; }
+
+  .container {
+    width: 1440px;
+    margin: 0 auto; } }
+@media (min-width: 640px) and (max-width: 1439px) {
+  .bio .bio-text {
+    padding: 10px 50px;
+    font-size: 16px; }
+
+  .bio .first-bio-text {
+    padding-top: 28%; }
+
+  .images .image-slider {
+    width: 580px; } }
+@media (min-width: 1020px) and (max-width: 1219px) {
+  .bio .first-bio-text {
+    padding-top: 23%; } }
+@media (min-width: 1220px) and (max-width: 1439px) {
+  .bio .first-bio-text {
+    padding-top: 20%; } }
+@media (max-width: 639px) {
   .bio .bio-text {
     padding: 5px 20px;
     font-size: 12.5px; }
-
-  .bio .first-bio-text {
-    padding-top: 185px; }
 
   .images .image-slider {
     width: 265px;
@@ -111,12 +131,11 @@ header {
     top: 75%; }
   .images .slick-dots {
     bottom: -70px; } }
-@media (min-width: 1440px) {
-  body {
-    background: #000; }
-
-  .container {
-    width: 1440px;
-    margin: 0 auto; } }
+@media (min-width: 540px) and (max-width: 639px) {
+  .bio .first-bio-text {
+    padding-top: 48%; } }
+@media (min-width: 420px) and (max-width: 539px) {
+  .bio .first-bio-text {
+    padding-top: 50%; } }
 
 /*# sourceMappingURL=styles.css.map */
