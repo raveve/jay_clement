@@ -94,6 +94,9 @@ header {
       .contact ul li:nth-child(2) {
         margin-left: 25px; }
 
+@media (min-width: 1441px) {
+  .bio {
+    width: 1441px; } }
 @media (min-width: 1440px) {
   body {
     background: #000; }
